@@ -1,7 +1,7 @@
 24年-今</br>
 AI理论实践:</br>  
 数据处理:</br>
-&emsp;&emsp;自监督学习的方式，设计了伪标签机制，增强了数据信号,<span style="opacity:0.5;">代码参考——HW3.py</span>。</br>
+&emsp;&emsp;自监督学习的方式，设计了伪标签机制，增强了数据信号,<div style="opacity:0.4;">代码参考——HW3.py</div>。</br>
 模型配置  
 训练前置  
 训练过程  
