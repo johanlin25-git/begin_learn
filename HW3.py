@@ -311,9 +311,6 @@ def main():
         epoch_start_time = time.time()
         # 计算当前阈值（动态调整）
         current_threshold = max(base_threshold - epoch * threshold_decay, min_threshold)
-        # ---------- TODO ----------
-        # In each epoch, relabel the unlabeled dataset for semi-supervised learning.
-        # Then you can combine the labeled dataset and pseudo-labeled dataset for the training.
         if do_semi:
             print(f"\n[Epoch {epoch + 1}/{n_epochs}] 开始半监督学习 (阈值={current_threshold:.2f})...")
 
@@ -412,5 +409,6 @@ def main():
 
 if __name__ == "__main__":
     main() # Windows系统上必须的保护措施
+
 
 
